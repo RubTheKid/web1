@@ -38,8 +38,11 @@ export default function ToDo(){
 
       const renderItem = ({ item }: ItemProps) => (
         <View style={styles.itemBox}>
-          <Text>{item.text}</Text>
-          <Text>{item.isDone}</Text>
+          <Text style={styles.itemBox.description}>{item.text}</Text>
+          <Text style={styles.itemBox.done}>{item.isDone}</Text>
+          <Ionicons style={styles.itemBox.delete} name="close-circle-outline" />
+          
+          
         </View>
       );
       

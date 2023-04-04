@@ -71,18 +71,7 @@ export const styles =  StyleSheet.create({
     flatList:{
       backgroundColor:'navy'
      },
-     
-   // width: 300,
-    // padding: 18,
-    // backgroundColor: "#1F1E25",
-    // borderRadius: 4,
-    // color: "#fff",
-    // fontSize: 18,
-
-      // paddingTop: 54,
-      // paddingBottom: 200,
-      // paddingLeft: 60,
-      // paddingRight: 60,
+  
     
    itemBox:{
     backgroundColor: 'red',
@@ -90,7 +79,17 @@ export const styles =  StyleSheet.create({
     paddingLeft: 15,
     borderRadius:10,
     marginLeft:30,
-    marginTop:30
+    marginTop:30,
+    justifyContent: 'space-between',
+    description:{
+      backgroundColor: 'yellow'
+    },
+    done:{
+      backgroundColor: 'white'
+    },
+    delete:{
+      backgroundColor: 'navy'
+    }
    }
   
 
